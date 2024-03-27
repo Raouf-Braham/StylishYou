@@ -50,6 +50,7 @@
 # Table of Contents
 
 - [About the Project](#about-the-project)
+  * [Description](#description)
   * [Screenshots](#screenshots)
   * [Tech Stack](#tech-stack)
   * [Features](#features)
