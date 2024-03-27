@@ -85,6 +85,8 @@ StylishYou aims to address the complexity and fragmentation of online shopping f
 <!-- Tutorial -->
 ### Tutorial
 
+<p>This tutorial offers a concise demonstration on effectively managing your product cart and seamlessly transitioning it to the checkout page.</p>
+
 <div align="center"> 
   <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
 </div>
