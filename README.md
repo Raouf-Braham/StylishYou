@@ -1,8 +1,11 @@
 
 <div align="center">
-
-
-  <img src="img/original-logo.png" alt="logo" width="400px" height="auto" style="border-radius = 25px;" />
+  
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Welcome+To;+StylishYou!;" />
+</h1>
+  
+  <img src="img/original-logo.png" alt="logo" width="400px" height="auto"/>
 
   <h1>StylishYou : Your Fashion Journey Starts Here</h1>
   
