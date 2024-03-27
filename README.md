@@ -86,7 +86,9 @@ StylishYou aims to address the complexity and fragmentation of online shopping f
 ### Tutorial
 
 <p>This concise tutorial demonstrates the process of seamlessly adding and removing products from your cart, progressing to the checkout page, and specifying desired quantities for ordering.</p>
-
+<br>
+<p>You may access the platform by either creating a personal account or utilizing the provided user credentials: Username: user@gmail.com | Password: user2024</p>
+<br>
 https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9309-7e8d96b3f3ab
 
 <div align="center"> 
