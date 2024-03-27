@@ -26,17 +26,17 @@ Maybe you can mention me or this repo in the acknowledgements too
   <a href="">
     <img src="https://img.shields.io/github/last-commit/Raouf-Braham/StylishYou" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
+  <a href="https://github.com/Raouf-Braham/StylishYou/network/members">
+    <img src="https://img.shields.io/github/forks/Raouf-Braham/StylishYou" alt="forks" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
+  <a href="https://github.com/Raouf-Braham/StylishYou">
+    <img src="https://img.shields.io/github/stars/Raouf-Braham/StylishYou" alt="stars" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
+  <a href="https://github.com/Raouf-Braham/StylishYou/issues/">
+    <img src="https://img.shields.io/github/issues/Raouf-Braham/StylishYou" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
+  <a href="https://github.com/Raouf-Braham/StylishYou/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/Raouf-Braham/StylishYou.svg" alt="license" />
   </a>
 </p>
    
