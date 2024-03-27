@@ -54,7 +54,7 @@
 
 - [About the Project](#about-the-project)
   * [Mission](#mission)
-  * [Screenshots](#screenshots)
+  * [Tutorial](#tutorial)
   * [Tech Stack](#tech-stack)
   * [Features](#features)
   * [Color Reference](#color-reference)
@@ -79,11 +79,11 @@
 ## About the Project
 
 <!-- Mission -->
-### Mission 🎯
+### Mission
 StylishYou aims to address the complexity and fragmentation of online shopping for a variety of branded clothing, providing a seamless user experience. We offer a comprehensive range of products including clothing, shoes, accessories, and cosmetics for all genders and ages. Our goal is to ensure a secure and enjoyable shopping experience while showcasing international brand collections attractively. Additionally, we have implemented a user management system with registration and login features, as well as an admin dashboard for managing products and orders.
 
-<!-- Screenshots -->
-### Screenshots
+<!-- Tutorial -->
+### Tutorial
 
 <div align="center"> 
   <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
