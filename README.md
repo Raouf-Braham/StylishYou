@@ -2,7 +2,7 @@
 <div align="center">
 
 
-  <img src="img/original-logo.png" alt="logo" width="400px" height="auto" />
+  <img src="img/original-logo.png" alt="logo" width="400px" height="auto" style="border-radius = 25px;" />
 
   <h1>StylishYou : Your Fashion Journey Starts Here</h1>
   
