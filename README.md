@@ -34,7 +34,7 @@
 </p>
    
 <h4>
-    <a href="https://github.com/Raouf-Braham/StylishYou/">View Demo</a>
+    <a href="http://stylishyou.onlinewebshop.net/">View Demo</a>
   <span> · </span>
     <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
   <span> · </span>
