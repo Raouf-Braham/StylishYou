@@ -124,7 +124,7 @@ https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9
 <!-- Features -->
 ### Features
 
-- Feature 1
+- Homepage (index.php) :  showcasing collections from various brands with user-friendly navigation and visually appealing elements to highlight flagship products, along with interactive features for easy search facilitation.
 - Feature 2
 - Feature 3
 
