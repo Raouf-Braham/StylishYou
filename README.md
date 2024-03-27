@@ -9,7 +9,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
 
-  <img src="img/original-logo.png" alt="logo" width="200" height="auto" />
+  <img src="img/original-logo.png" alt="logo" width="400px" height="auto" />
   <h1>StylishYou : Your Fashion Journey Starts Here</h1>
   
   <p>
