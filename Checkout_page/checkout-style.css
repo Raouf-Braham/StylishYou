@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root{
+
+    /********************************************************************** Colors ********************************************************************/
+
+    --onyx: hsl(0, 0%, 25%);
+    --azure: hsl(219, 77%, 60%);
+    --white: hsl(0, 0%, 100%);
+    --platinum: hsl(0, 0%, 91%);
+    --gainsboro: hsl(0, 0%, 90%);
+    --red-salsa: hsl(0, 77%, 60%);
+    --dim-gray: hsl(0, 0%, 39%);
+    --davys-gray: hsl(0, 0%, 30%);
+    --spanish-gray: hsl(0, 0%, 62%);
+    --quick-silver: hsl(0, 0%, 64%); 
+
+    /********************************************************************** Typography *****************************************************************/
+
+    --fs-28: 28px;
+    --fs-24: 24px;
+    --fs-18: 18px;
+    --fs-15: 15px;
+    --fs-14: 14px;
+    
+    --fw-5: 500;
+    --fw-6: 600;
+    --fw-7: 700;
+
+    /********************************************************************** Others ********************************************************************/
+    
+    --px: 60px;
+    --radius: 5px;
+
+}
+
+/********************************************************************** Reset ************************************************************************/
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { font-family: 'Source Sans 3', sans-serif; }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+ion-icon, span { display: block; }
+
+label, img { display: block; }
+
+input {
+    font: inherit;
+    width: 100%;
+    border: none;
+}
+
+input:focus { outline: 2px solid var(--azure); }
+
+
+/********************************************************************** Page Preloader ************************************************************************/
+
+#preloader{
+    background: #fff url('../img/icons/loader.gif') no-repeat center center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+}
+
+
+
+/********************************************************************** Header Start ************************************************************************/
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+#header {
+display: none; /* Utilisez un modèle d'affichage flexible pour le contenu du header */
+align-items: center; /* Centrez verticalement les éléments enfants */
+justify-content: space-between; /* Répartissez l'espace horizontalment entre les éléments enfants */
+padding: 20px 80px; /* Ajoutez un espacement intérieur de 20px en haut et en bas, 80px à gauche et à droite */
+background: #e3e6f3; /* Définissez une couleur d'arrière-plan */
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /* Ajoutez une ombre à la boîte */
+z-index: 999;
+position: sticky;
+top: 0;
+left: 0;
+font-family: "Spartan", sans-serif;
+}
+
+#navbar a i.fa-bag-shopping {
+font-size: 24px; /* Adjust the size as needed */
+}
+
+#navbar {
+display: flex; /* Utilisez un modèle d'affichage flexible pour le contenu de la navbar */
+align-items: center; /* Centrez verticalement les éléments enfants */
+justify-content: center; /* Centrez horizontalement les éléments enfants */
+}
+
+#navbar li {
+list-style: none; /* Supprimez les puces de liste */
+padding: 0 20px; /* Ajoutez un espacement intérieur de 0 en haut et en bas, 20px à gauche et à droite */
+position: relative; /* Définissez la position relative pour que les éléments enfants absolus soient positionnés par rapport à celui-ci */
+}
+
+#navbar li a {
+text-decoration: none; /* Supprimez la soulignement du texte des liens */
+font-size: 16px; /* Définissez la taille de la police */
+font-weight: 600; /* Définissez le poids de la police en gras */
+color: #1a1a1a; /* Définissez la couleur du texte */
+transition: 0.3s ease; /* Ajoutez une transition animée sur les changements de style pendant 0,3s avec une courbe de transition "ease" */
+}
+
+#navbar li a:hover,
+#navbar li a.active-page {
+color: #088178; /* Changez la couleur du texte au survol ou lorsque le lien est actif */
+}
+
+#navbar li a::after {
+content: ""; /* Insérez un contenu vide (utile pour les éléments pseudo-contenus) */
+width: 0; /* Commencez avec une largeur de 0 */
+height: 2.5px; /* Définissez la hauteur de la ligne sous le lien */
+background: #088178; /* Définissez la couleur de la ligne */
+position: absolute; /* Positionnez de façon absolue par rapport au lien */
+bottom: -4px; /* Placez la ligne 4px en dessous du lien */
+right: 20%; /* Commencez à 20 % de la largeur du lien à partir de la droite */
+transition: width 0.3s ease, left 0.3s ease; /* Animez le changement de largeur de la ligne et sa position à gauche */
+}
+
+#navbar li a:hover::after,
+#navbar li a.active-page::after {
+width: 60%; /* Étendez la ligne jusqu'à la fin du lien au survol ou lorsqu'il est actif */
+left: 20%; /* Commencez depuis la gauche à 20 % de la largeur du lien */
+}
+
+/* Bouton de connexion (Log In) */
+
+#LogIn {
+background: #088178;
+color: white;
+padding: 10px 20px;
+height: 50px;
+margin-left: 20px; /* Ajustez la marge gauche pour déplacer le bouton vers la droite */
+margin-right: 2px; /* Ajustez la marge droite si nécessaire */
+border: 3px solid transparent; /* Add a transparent 2px border */
+border-radius: 5px;
+border-color: white;
+border: 3px solid transparent;
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+transition: background 0.3s ease;
+}
+
+#LogIn:hover {
+background: white;
+color: #065b66;
+border: 3px solid #088178; /* Adjust border width and color on hover */
+}
+/* Bouton de connexion (Sign Up) */
+#SignUp {
+background: #088178;
+color: white;
+height: 50px;
+padding: 10px 20px;
+margin-left: 20px;
+margin-right: 2px;
+border-radius: 5px;
+border: 3px solid transparent; /* Add a transparent 2px border */
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+transition: background 0.3s ease; /* Add border to the transition */
+}
+
+#SignUp:hover {
+background: white;
+color: #065b66;
+border: 3px solid #088178; /* Adjust border width and color on hover */
+}
+
+  
+/***************************************************** User Dropdown menu *****************************************************************/
+.action {
+position: fixed;
+top: 20px;
+right: 30px;
+}
+
+.action .profile {
+position: relative;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+overflow: hidden;
+cursor: pointer;
+}
+
+.action .profile img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.action .menu {
+position: absolute;
+top: 120px;
+right: -10px;
+padding: 10px 20px;
+background: #fff;
+width: 200px;
+box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+transition: 0.5s;
+visibility: hidden;
+opacity: 0;
+}
+
+.action .menu.active {
+top: 80px;
+visibility: visible;
+opacity: 1;
+}
+
+.action .menu::before {
+content: "";
+position: absolute;
+top: -5px;
+right: 28px;
+width: 20px;
+height: 20px;
+background: #fff;
+transform: rotate(45deg);
+}
+
+.action .menu h4 {
+width: 100%;
+text-align: center;
+font-size: 15px;
+padding: 20px 0;
+font-weight: 500;
+color: #555;
+line-height: 1.5em;
+}
+
+.action .menu h4 span {
+font-size: 13px;
+color: #b1acac;
+font-weight: 300;
+}
+
+.action .menu ul li {
+list-style: none;
+padding: 16px 0;
+border-top: 1px solid rgba(0, 0, 0, 0.05);
+display: flex;
+align-items: center;
+}
+
+.action .menu ul li img {
+max-width: 20px;
+margin-right: 10px;
+opacity: 0.5;
+transition: 0.5s;
+}
+
+.action .menu ul li:hover img {
+opacity: 1;
+}
+
+.action .menu ul li a {
+display: inline-block;
+text-decoration: none;
+color: #555;
+font-weight: 500;
+transition: 0.5s;
+}
+
+.action .menu ul li:hover a {
+color: #088178;
+}
+
+
+
+/********************************************************************** Remove Input Up & Dpwn button ************************************************/
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/********************************************************************** Custom Scrool Bar Style *****************************************************/
+
+::-webkit-scrollbar { width: 8px; }
+
+::-webkit-scrollbar-track { background-color: transparent; }
+
+::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 80%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%);}
+
+
+/********************************************************************** Main Style ******************************************************************/
+
+.checkout-container{
+    /*max-width: 1440px;*/
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: var(--fs-28);
+    font-weight: var(--fw-6);
+    color: var(--onyx);
+    border-bottom: 1px solid var(--gainsboro);
+    padding: 20px var(--px);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading ion-icon { font-size: 40px; }
+
+.item-flex{
+    display: flex;
+    flex-grow: 1;
+}
+
+
+/********************************************************************** Checkout Section Style ******************************************************************/
+
+.checkout{
+   width: 70%;
+   padding: 40px var(--px);
+   background: var(--white);
+    border-right: 1px solid var(--gainsboro);
+}
+
+.section-heading{
+    color: var(--onyx);
+    margin-bottom: 30px;
+    font-size: var(--fs-24);
+    font-weight: var(--fw-5);
+}
+
+.payment-form { margin-bottom: 40px; }
+
+.payment-method{
+    display:    flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.payment-method .method{
+    border: 1px solid var(--quick-silver);
+    border-radius: var(--radius);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.payment-method .selected { border-color: var(--azure); }
+
+.payment-method .method ion-icon { font-size: 20px; }
+
+.payment-method .method .checkmark{
+    margin-left: auto;
+    color: var(--quick-silver);
+}
+
+.payment-method .method .fill { color: var(--azure); }
+
+.label-default{
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: var(--fs-14);
+    color: var(--spanish-gray);
+
+}
+
+.input-default{
+    background: var(--platinum);
+    border-radius: var(--radius);
+    color: var(--davys-gray);
+}
+
+.payment-form input{
+    padding: 10px 15px;
+    font-size: var(--fs-18);
+    font-weight: var(--fw-5);
+}
+
+.cardholder-name,
+.card-number { margin-bottom: 20px; }
+
+.card-number input,
+.cvv input { letter-spacing: 3px; }
+
+.input-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.input-flex .expire-date,
+.input-flex .cvv { width: 50%; }
+
+.expire-date .input-flex {
+    color: var(--spanish-gray);
+    gap: 13px;
+}
+
+.expire-date .input-flex input { text-align: center; }
+
+.btn { border-radius: var(--radius); }
+
+.btn:active { transform: scale(0.99); }
+
+.btn:focus{
+    color: var(--white);
+    background: var(--azure);
+    outline: 2px solid var(--azure);
+    outline-offset: 2px;
+}
+
+.btn-primary{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background: var(--azure);
+    font-weight: var(--fw-5);
+    color: var(--white);
+    padding: 13px 45px; 
+}
+
+.btn-primary b { margin-right: 10px; }
+
+
+/********************************************************************** Cart Section Style ******************************************************************/
+
+.chekcout-cart{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cart-item-box{
+    padding: 40px var(--px);
+    margin-bottom: auto;
+}
+
+.product-card:not(:last-child) { margin-bottom: 20px; }
+
+.product-card .checkout-card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.checkout-card .product-img{ border-radius: var(--radius); }
+
+.checkout-card .detail .product-name{
+    font-weight: var(--fw-6);
+    font-size: var(--fs-15);
+    color: var(--dim-gray);
+    margin-bottom: 10px;
+}
+
+.checkout-card .detail .checkout-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.checkout-price{
+    display: flex;
+    align-items: center;
+}
+
+.checkout-price span {
+    margin-left: 3px; 
+}
+
+.product-qty{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-qty button {
+    background: var(--platinum);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-qty button:active,
+.product-close-btn:active ion-icon { transform: scale(0.95); }
+
+.product-qty button ion-icon {
+    --ionicon-stroke-width: 60px;
+    font-size: 10px;
+
+}
+
+.product-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product-close-btn ion-icon {
+    font-size: 25px;
+    color: var(--quick-silver);
+}
+
+.product-close-btn:hover ion-icon { color: var(--red-salsa); }
+
+.discount-token{
+    padding: 40px var(--px);
+    border-top: 1px solid var(--gainsboro);
+    border-bottom: 1px solid var(--gainsboro);
+}
+
+.checkout-wrapper-flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.checkout-wrapper-flex input {
+    padding: 12px 15px;
+    font-weight: var(--fw-6);
+    letter-spacing: 2px;
+}
+
+.btn-outline{
+    padding: 10px 25px;
+    border: 1px solid var(--azure);
+    color: var(--azure);
+}
+
+.btn-outline:hover{
+    background: var(--azure);
+    color: var(--white);
+}
+
+.amount { padding: 40px var(--px); }
+
+.amount > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount > div:not(:last-child) { margin-bottom: 10px; }
+
+.amount .checkout-total {
+    font-size: var(--fs-18);
+    font-weight: var(--fw-7);
+    color: var(--onyx);
+}
+
+.amount span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 3px;
+}
+
+
+
+/********************************************************************** Responsive ******************************************************************/
+
+@media (max-width: 1200px){
+    
+    .item-flex { flex-direction: column-reverse; }
+
+    /********************* Checkout Section Responsive *********************/
+
+    .checkout{
+        width: 100%;
+        border-right: none;
+    }
+
+    /********************* Cart Section Responsive *********************/
+
+    .chekcout-cart{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        border-bottom: 1px solid var(--gainsboro);
+    }
+
+    .chekcout-cart .checkout-wrapper { margin-top: auto; }
+
+    .chekcout-cart .cart-item-box{
+        border-right: 1px solid var(--gainsboro);
+        margin-bottom: 0;
+    }
+
+    .discount-token{ border-top: none; }
+}
+
+@media (max-width: 768px){
+    :root { --px: 40px; }
+
+    .chekcout-cart { grid-template-columns: 1fr; }
+
+    .discount-token { border-top: 1px solid var(--gainsboro); }
+
+    .checkout-wrapper-flex { gap: 20px; }
+}
+
+@media (max-width: 567px) {
+    :root { --px: 20px; }
+
+    .payment-method {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .payment-method .method { width: 100%; }
+
+    .input-flex .expire-date,
+    .input-flex .cvv { width: 100%; }
+
+    .expire-date .input-flex { flex-direction: row;}
+}
+
+
