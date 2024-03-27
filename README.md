@@ -10,7 +10,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 
 
   <img src="img/original-logo.png" alt="logo" width="200" height="auto" />
-  <h1>Awesome Readme Template</h1>
+  <h1>StylishYou : Your Fashion Journey Starts Here</h1>
   
   <p>
     An awesome README template for your projects! 
