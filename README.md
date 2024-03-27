@@ -1,11 +1,4 @@
-<!--
-Hey, thanks for using the awesome-readme-template template.  
-If you have any enhancements, then fork this project and create a pull request 
-or just open an issue with the label "enhancement".
 
-Don't forget to give this project a star for additional support ;)
-Maybe you can mention me or this repo in the acknowledgements too
--->
 <div align="center">
 
 
@@ -41,7 +34,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 </p>
    
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
+    <a href="https://github.com/Raouf-Braham/StylishYou/">View Demo</a>
   <span> · </span>
     <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
   <span> · </span>
