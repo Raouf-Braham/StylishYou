@@ -11,13 +11,10 @@ Maybe you can mention me or this repo in the acknowledgements too
 
   <img src="img/original-logo.png" alt="logo" width="400px" height="auto" />
 
-  <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=StylishYou+Your Fashion Journey Starts Here;" />
-  </h1>
   <h1>StylishYou : Your Fashion Journey Starts Here</h1>
   
   <p>
-    An awesome README template for your projects! 
+    Welcome to StylishYou, your ultimate destination showcasing a diverse array of clothing categories from the most popular brands in fashion.
   </p>
   
   
