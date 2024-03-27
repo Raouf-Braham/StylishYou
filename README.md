@@ -82,12 +82,12 @@
 ### Mission
 StylishYou aims to address the complexity and fragmentation of online shopping for a variety of branded clothing, providing a seamless user experience. We offer a comprehensive range of products including clothing, shoes, accessories, and cosmetics for all genders and ages. Our goal is to ensure a secure and enjoyable shopping experience while showcasing international brand collections attractively. Additionally, we have implemented a user management system with registration and login features, as well as an admin dashboard for managing products and orders.
 
-https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9309-7e8d96b3f3ab
-
 <!-- Tutorial -->
 ### Tutorial
 
 <p>This concise tutorial demonstrates the process of seamlessly adding and removing products from your cart, progressing to the checkout page, and specifying desired quantities for ordering.</p>
+
+https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9309-7e8d96b3f3ab
 
 <div align="center"> 
   <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
