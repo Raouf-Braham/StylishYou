@@ -171,7 +171,8 @@ To utilize our website, begin by navigating to the homepage to explore our offer
 
 <!-- Roadmap -->
 ## Roadmap
-The roadmap for this project entails refining the shopping process and enhancing the navigation experience within the fashion domain.
+The roadmap for this project entails refining the shopping process and enhancing the navigation experience within the fashion domain. 
+To achieve perfection, we must focus on the following key areas:
 
 * [x] Responsiveness across all screen sizes
 * [ ] Meticulously testing for and resolving any bugs or issues encountered along the way.
@@ -205,7 +206,7 @@ Distributed under the no License. See LICENSE.txt for more information.
 <!-- Contact -->
 ## Contact
 
-Raouf Braham - [@linkedin_handle](https://linkedin.com/linkedin_handle) - raouf.brahem@eniso.u-sousse.tn
+Linkedin - [@Raouf Braham](https://www.linkedin.com/in/raouf-braham-67b365251/) | Email - raouf.brahem@eniso.u-sousse.tn
 
 Project Link: [https://github.com/Raouf-Braham/StylishYou](https://github.com/Raouf-Braham/StylishYou)
 
@@ -213,9 +214,10 @@ Project Link: [https://github.com/Raouf-Braham/StylishYou](https://github.com/Ra
 <!-- Acknowledgments -->
 ## Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
+Here are some libraries and resources that have been instrumental in enhancing our website :
 
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
+ - [Swiper.js](https://swiperjs.com/)
+ - [Glide.js](https://glidejs.com/)
+ - [ScrollReveal.js](https://scrollrevealjs.org/)
+ - [Font Awesome](https://fontawesome.com/)
+ - [Google Fonts](https://fonts.google.com/)
