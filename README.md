@@ -126,6 +126,8 @@ https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9
 
 - <b><em>Home Page (index.php) :</b></em>  showcasing collections from various brands with user-friendly navigation and visually appealing elements to highlight flagship products, along with interactive features for easy search facilitation.
 <br />
+- <b><em>Home Page (index.php) :</b></em>  showcasing collections from various brands with user-friendly navigation and visually appealing elements to highlight flagship products, along with interactive features for easy search facilitation.
+<br />
 - <b><em>Shop Page (shop.php) :</b></em> The shop page encompasses all website products, offering filtering options based on various criteria such as gender (women, men, kids), brand name (ZARA, NIKE, H&M), price range, material, and more.
 <br />
 - <b><em>Single Product Page (sproduct.php) :</b></em> Single product pages provide comprehensive item descriptions, high-resolution images with zoom functionality for closer examination, streamlined navigation via categorization, presentation of brand collections, and seamless integration of quantity adjustments, add to cart and wishlist features.
