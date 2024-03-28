@@ -124,7 +124,7 @@ https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9
 <!-- Features -->
 ### Features
 
-• <b style="margin-left: 15px;"><em>Home Page (index.php) :</b></em>  showcasing collections from various brands with user-friendly navigation and visually appealing elements to highlight flagship products, along with interactive features for easy search facilitation.
+• <b><em>Home Page (index.php) :</b></em>  showcasing collections from various brands with user-friendly navigation and visually appealing elements to highlight flagship products, along with interactive features for easy search facilitation.
 
 <br>• <b><em>Shop Page (shop.php) :</b></em> The shop page encompasses all website products, offering filtering options based on various criteria such as gender (women, men, kids), brand name (ZARA, NIKE, H&M), price range, material, and more.
 
@@ -141,7 +141,7 @@ https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
+| Primary Color | ![#088178](https://via.placeholder.com/10/222831?text=+) #088178 |
 | Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
 | Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
 | Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
