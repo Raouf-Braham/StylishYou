@@ -58,7 +58,6 @@
   * [Tech Stack](#tech-stack)
   * [Features](#features)
   * [Color Reference](#color-reference)
-  * [Environment Variables](#environment-variables)
 - [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -147,45 +146,8 @@ https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9
 | Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 
-<!-- Env Variables -->
-### Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
 <!-- Getting Started -->
 ## Getting Started
-
-<!-- Prerequisites -->
-### Prerequisites
-
-This project uses Yarn as package manager
-
-```bash
- npm install --global yarn
-```
-
-<!-- Installation -->
-### Installation
-
-Install my-project with npm
-
-```bash
-  yarn install my-project
-  cd my-project
-```
-   
-<!-- Running Tests -->
-### Running Tests
-
-To run tests, run the following command
-
-```bash
-  yarn test test
-```
 
 <!-- Run Locally -->
 ### Run Locally
@@ -193,7 +155,7 @@ To run tests, run the following command
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git clone https://github.com/Raouf-Braham/StylishYou.git
 ```
 
 Go to the project directory
@@ -202,55 +164,25 @@ Go to the project directory
   cd my-project
 ```
 
-Install dependencies
-
-```bash
-  yarn install
-```
-
-Start the server
-
-```bash
-  yarn start
-```
-
-
-<!-- Deployment -->
-### Deployment
-
-To deploy this project run
-
-```bash
-  yarn deploy
-```
-
-
 <!-- Usage -->
 ## Usage
 
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
+To utilize our website, begin by navigating to the homepage to explore our offerings. From there, browse through the collections, select desired products, and add them to your cart. Finally, proceed to the checkout page to finalize your purchase securely.
 
 <!-- Roadmap -->
 ## Roadmap
+The roadmap for this project entails refining the shopping process and enhancing the navigation experience within the fashion domain.
 
-* [x] Todo 1
-* [ ] Todo 2
+* [x] Responsiveness across all screen sizes
+* [ ] Meticulously testing for and resolving any bugs or issues encountered along the way.
+* [ ] Scalability will be a pivotal focus, ensuring the website can seamlessly accommodate increased traffic and growing demands without compromising performance or user experience.
 
 
 <!-- Contributing -->
 ## Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+<a href="https://github.com/Raouf-Braham/StylishYou/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Raouf-Braham/StylishYou" />
 </a>
 
 
@@ -262,19 +194,7 @@ See `contributing.md` for ways to get started.
 <!-- Code of Conduct -->
 ### Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
-<!-- FAQ -->
-## FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
-
+Please read the [Code of Conduct](https://github.com/Raouf-Braham/StylishYou/blob/master/CODE_OF_CONDUCT.md)
 
 <!-- License -->
 ## License
@@ -285,9 +205,9 @@ Distributed under the no License. See LICENSE.txt for more information.
 <!-- Contact -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Raouf Braham - [@linkedin_handle](https://linkedin.com/linkedin_handle) - raouf.brahem@eniso.u-sousse.tn
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: [https://github.com/Raouf-Braham/StylishYou](https://github.com/Raouf-Braham/StylishYou)
 
 
 <!-- Acknowledgments -->
