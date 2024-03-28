@@ -142,9 +142,9 @@ https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Primary Color | ![#088178](https://via.placeholder.com/10/088178?text=+) #088178 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+| Secondary Color | ![#009688](https://via.placeholder.com/10/009688?text=+) #009688 |
+| Accent Color | ![#222](https://via.placeholder.com/10/222?text=+) #222 |
+| Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 
 <!-- Env Variables -->
