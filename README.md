@@ -133,12 +133,12 @@ https://github.com/Raouf-Braham/StylishYou/assets/146178733/0ae6c69b-227c-475e-9
 <!-- Color Reference -->
 ### Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#088178](https://via.placeholder.com/10/088178?text=+) #088178 |
-| Secondary Color | ![#009688](https://via.placeholder.com/10/009688?text=+) #009688 |
-| Accent Color | ![#222](https://via.placeholder.com/10/222?text=+) #222 |
-| Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Color            | Value                                                                 |
+|------------------|------------------------------------------------------------------------|
+| Primary Color     | <img src="https://via.placeholder.com/15/088178/088178.png"> `#088178` |
+| Secondary Color   | <img src="https://via.placeholder.com/15/009688/009688.png"> `#009688` |
+| Accent Color      | <img src="https://via.placeholder.com/15/222222/222222.png"> `#222222` |
+| Text Color        | <img src="https://via.placeholder.com/15/000000/000000.png"> `#000000` |
 
 
 <!-- Getting Started -->
